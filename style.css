@@ -1,0 +1,297 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 70px 0px;
+}
+
+/*PARTIE 1*/
+#partie1{
+	                 
+    width: 70%;
+	height: 500px;	
+	right: 0;
+	left: 15%;
+    position: relative;
+	border-radius: 20px;
+	background: #000;
+	border-radius: 10px;
+	padding-top: 100px;
+}
+#action{
+	margin-left: 18%;
+}
+#partie1 button{
+	margin-left: 20px;
+	width:200px ;
+	height: 50px;
+	background: #000;
+	box-shadow:   2px 2px 2px rgb(190, 188, 188);
+
+}
+#partie1 a{
+	color:#f1a10c;
+	text-decoration: none;
+	font: bold;
+}
+#partie1 h1{
+	text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+    font-weight: bold;
+	text-shadow: 2px 2px 2px #f1a10c;
+	background-color:#f1a10c;
+	margin-bottom: 50px;
+ 
+
+}
+/*FORMULAIRE*/
+#somme{
+	padding-top: 50px;
+	padding-bottom: 50px;	
+    position: relative;
+	background-color: #000;
+	border-radius: 10px;
+}
+.form-group{
+    margin-bottom: -40px;
+}
+
+#somme h1{
+	    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+    font-weight: bold;
+	text-shadow: 2px 2px 2px #f1a10c;
+	background-color:#f1a10c;
+	margin-bottom: 50px;
+ 
+	margin-bottom:-30px;
+}
+#somme .form-group label{
+   font-size: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fdb124;
+	font-weight: 400;
+	margin-bottom: -20px;
+}
+#somme .form-group input{
+	
+    width: 400px;
+	margin-left:50px;
+	font-weight: bold;
+	border: 2px solid #fdb124;
+	box-shadow: 1px 1px 1px #fdb124;
+    height: 40px;
+	margin-top: 0px;
+}
+#ajout{
+	width: 200px;
+	font-size: 20;
+	background:#f1a10c;
+	border: 2px solid #000;
+	float: right;
+	margin-bottom: 20px;
+	box-shadow:  2px 2px 2px #000;
+	
+}
+#ajout a{
+	color: #000;
+	text-decoration: none;
+}
+input#search{
+	width: 200px;
+	height: 40px;
+	background-color:#000;
+	border: 2px solid #f1a10c;
+	box-shadow:  2px 2px 2px #f1a10c;
+	color: white;
+}
+/*BUTTON SUBMIT*/
+#envoye{
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+#envoye .button1{
+    width: 120px;
+	height: 42px;
+	cursor: pointer;	
+	background:#fdb124;
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #000;
+	font-size: 18px;	
+    font-weight: 700;
+	line-height: 10px;
+	border: 2px solid white;	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px #fdb124;
+
+}
+#envoye .button1:hover{
+	background: #000;
+    color:#fdb124;
+	text-shadow: 0 1px 1px #000;
+	border: 2px solid white;	
+}
+#envoye .botton a{
+	text-decoration: none;
+	color: black;
+	border: none;
+
+}
+#envoye .botton a:hover{
+	color: #004040;
+}
+#envoye .botton{
+    width:120px;
+	height: 42px;
+	cursor: pointer;	
+	background: #004040;
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 18px;	
+    font-weight: bold;
+	border: 1px solid #808000;	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+#envoye .botton:hover{
+	background: #808000;
+    color: #004040;
+	
+}
+.erreur{
+	font-size: 16px;
+	color: rgb(160, 4, 4);
+	margin-left: 50px;
+	
+}
+
+.btn{
+	width: 120px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: none;
+	height: 40px;
+}
+
+
+ /*CSS TABLEAUX*/
+ #liste{
+	background: #000;
+	padding: 50px;
+ }
+ #liste h1{
+    color:#000;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+	margin-bottom:50px;
+	background: #f1a10c;
+ }
+ #liste .button2{
+    width:200px;
+	height: 42px;
+	cursor: pointer;	
+	background:#fdb124;
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #000;
+	font-size: 18px;	
+    font-weight: 700;
+	line-height: 10px;
+	border: 2px solid white;	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px #fdb124;
+
+}
+ table{
+	background-color: white;
+ }
+ th{
+	background-color: #000;
+	color: #f1a10c;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    font-weight: bold;
+ }
+ td{
+	color: #000;
+	font-size: 14px;
+ }
+ #liste i{
+	color: #f1a10c;
+	padding-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+ }
+ /*VOIR.PHP*/
+ p{
+color: white;
+font-size: 18px;
+padding-left: 100px;
+ }
+ /* SUPPRIMER.PHP*/
+ #suppr{
+	background: #000;
+	padding-top: 50px;
+	
+ }
+ #suppr h1{
+	color:#000;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+	margin-bottom:50px;
+	background: #f1a10c;
+ }
+ #suppr p{
+	margin-left: 18%;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+	padding-top: 5px;
+
+	font-family: Arial, Helvetica, sans-serif;
+ }
+ .envoye{
+	margin-left: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+ }
+ .envoye input,button{
+	width: 150px;
+	height: 40px;
+	font-size: 15;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #fdb124;
+	background: transparent;
+ }
+ input .envoye,button:hover{
+	color: #000;
+	background: #fdb124;
+ }
+.envoye a{
+	color: white;
+}
+/* PAGINATION*/
+.pagination a {
+	color: white;
+	font-weight: bold;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+.pagination a.active {
+	background-color:#f1a10c;
+	color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+	background-color: #ddd;}
